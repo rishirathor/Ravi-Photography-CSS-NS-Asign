@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    min-height: 1000px;
+    margin: 0 30px;
+    background-image: url("https://images.pexels.com/photos/5312338/pexels-photo-5312338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: 100%;
+    background-position:top;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+.header-nav-container{
+    display: grid;
+    
+}
+.header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    margin: 20px 0;
+}
+.header .logo{
+    width: 10%;
+    height: auto;
+    border-radius: 100px;
+    overflow: hidden;
+    margin: 10px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.header .nav-bar{
+    width: 90%;    
+    height: 100%;
+}
+.nav-bar .nav-items{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(58, 244, 86);
+    background-color: rgb(243, 19, 98);
+    border-radius: 5px;
+    height: 45px;
+    margin-top: 50px;
+    align-items: center;
+}
+#nav-id{
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+#nav-id:hover{
+    border: 1px;
+    background-color: yellow;
+    border-radius: 3px;
+    font-size: large;
+    padding: 4px;
+}
+
+.website-intro{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.showcase{
+    background-color: rgb(255, 233, 233);
+    background: transparent;
+    width: 95%;
+    margin: auto;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    color: rgb(129, 0, 0);
+    padding-top: 10px;
+}
+
+.img-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-container a{
+    max-width: 50%;
+    min-width: 400px;
+    height:max-content;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+.img-container a img{
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.about{
+    padding: 0.8rem;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
+}
+
+footer h3 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
