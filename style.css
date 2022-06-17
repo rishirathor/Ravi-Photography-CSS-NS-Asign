@@ -81,7 +81,7 @@ body{
 .banner .banner-content{
     display: flex;
     width: 100%;
-    background-color: hwb(0 28% 72% / 0.35);;
+    background-color: hwb(0 28% 72% / 0.35);
     flex-direction: column;
     align-items: center;
     position: absolute;
@@ -111,7 +111,7 @@ body{
   padding-top: 20px;
   text-align: justify;
 }
-.icon{
+.menu-list .icon{
   color: #fff;
   font-size: 20px;
   cursor: pointer;
@@ -141,10 +141,10 @@ body{
   body.disabled{
     overflow: hidden;
   }
-  .icon{
+  .menu-list  .icon{
     display: block;
   }
-  .icon.hide{
+  .menu-list  .icon.hide{
     display: none;
   }
   .navbar .menu-list{
@@ -192,9 +192,13 @@ body{
 .showcase{
     display: grid;
     text-align: center;
+    margin-top: 25px;
 }
 .showcase .show-heading{
     color: #bb2020;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: 1000;
 }
 
 .showcase .box{
@@ -203,16 +207,16 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 40px 40px 0 40px;
+    margin: 5px 40px 0 40px;
 }
 .box .theme-titl{
     width: 50%;
     padding-bottom: 50px;
 }
 .box .theme-title h3{
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bolder;
-    padding-bottom: 10px;
+    padding-bottom: 2px;
     border-bottom: 3px solid #222;
 }
 .box .img-container{
@@ -236,21 +240,45 @@ body{
 
 
 .about{
-    padding: 0.8rem;
+    padding: 2rem;
     text-align: center;
 }
-footer {
+footer{
+  background-color: #333;
+}
+footer .contact{
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     margin: auto;
-    color: #333;
+    color: rgb(255, 255, 255);
 }
-
 footer h3 {
     font-size: 3rem;
     margin-bottom: 0;
 }
+.social-media{
+  max-width: 350px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  list-style: none;
+  padding: 0 0 15px 0 ;
+}
+.social-media .icon{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.social-media .icon .fa {
+  text-decoration: none;
+}
+footer p{
+  padding: 15px 0 15px 0;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
 
+}
 
 
 @media only screen and (max-width: 673px) {
